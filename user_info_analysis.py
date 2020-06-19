@@ -58,7 +58,7 @@ user_repos_df = pd.DataFrame(list(user_repos_list.find()))
 user_pushs_list = db["push_user"]
 user_pushs_df = pd.DataFrame(list(user_pushs_list.find()))
 
-###Querry for last 4 weeks commits
+###Query for last 4 weeks commits
  
 todays_date = dt.date.today()
 date_weekday = todays_date.weekday()
